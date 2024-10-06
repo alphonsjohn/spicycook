@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPICY COOK</title>
+    <!-- css styling -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- favicon -->
+     <link rel="icon" type="image/png" href="https://www.pngmart.com/files/16/Kitchen-Chef-Vector-PNG-Transparent-Image.png">
+<!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Indie+Flower&family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: rgba(182, 182, 230, 0.789);">
+    <!-- headersection -->
+    <header class="sticky-top">
+        <a href="#"><img width="100px" height="100px" src="https://www.pngmart.com/files/16/Kitchen-Chef-Vector-PNG-Transparent-Image.png" alt="">spicycook</a>
+        <ul>
+            <form class="search-form" action="#" method="get">
+                <input type="text" class="search-input" placeholder="Search food,cakes,drinks" name="q" aria-label="Search">
+                <button type="submit" class="search-button">Search</button>
+            </form>
+            <form class="location" action="#" method="get">
+                <input type="text" class="search-input" placeholder="Select your location  "  name="q" aria-label="Search">
+            </form>
+            <li><a href="#section3"><i class="fa-solid fa-tags"></i>offers</a></li>
+            <li><a href="#Services"><i class="fa-solid fa-cart-shopping"></i>cart</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-user"></i>Hi_Gust</a></li>
+          
+        </ul>
+    </header>
+    <section class="header2" style="z-index: 1030;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Veg
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     NON veg
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Combos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Special
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sweets
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      On trend
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </nav>
+          </section>
+            
+    <!-- carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+          <div class="carousel-item active">
+            <img  src="http://i.huffpost.com/gen/4446994/images/o-CHICKEN-BIRYANI-facebook.jpg" class="d-block w-100 " height="820px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://irhindi.in/wp-content/uploads/2023/03/masala-dosa-recipe.jpg" class="d-block w-100 " height="820px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://as1.ftcdn.net/v2/jpg/06/16/01/58/1000_F_616015830_UeUguqhDiN7gIpckX3nCaXjPcrsUbA0c.jpg" height="820px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cookeryshow.com/wp-content/uploads/2017/05/bangda-fish-fry-mackerel-fish-go.jpg" class="d-block w-100" height="820px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://bonmasala.com/wp-content/uploads/2022/06/chicken-65-1.jpg" class="d-block w-100" height="820px" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h1 class="text-center p-3">Top Dishes</h1>
+      <div class=" container d-flex justify-content-between m-5">
+        <div class="m-3">
+            <img src="https://cdn.pixabay.com/photo/2022/11/18/05/40/biriyani-7599454_1280.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+            <p>Biriyani</p>
+        </div>
+        <div class="m-3">
+            <img src="https://cdn.pixabay.com/photo/2018/09/19/12/45/karimeen-3688474_1280.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+            <p> Fish</p>
+        </div>
+        <div class="m-3">
+            <img src="https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_1280.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+            <p>Cake</p>
+        </div>
+        <div class="m-3">
+            <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+            <P>Pizza</P>
+        </div>
+        <div class="m-3">
+            <img src="https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_640.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+            <p>Burger</p>
+        </div>
+        <div class="m-3">
+            <img src="https://cdn.pixabay.com/photo/2016/07/21/11/17/drink-1532300_1280.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+            <p>Drinks</p>
+        </div>
+        
+    </div>
+
+     <!-- cards -->
+    <h1 class="text-center p-3">Top restaurant</h1>
+    <div class="d-flex justify-content-around m-3">
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2020/03/18/07/19/dish-4943028_1280.jpg" height="250px" class="card-img-top" alt="...">
+            <span class="badge text-bg-warning position-absolute top-0 start-0 m-2">Best Price</span>
+        </div>
+            <div class="card-body">
+              <h5 class="card-title">Arrayas Vegetarian</h5>
+              <img src="https://clipground.com/images/veg-logo-png-5.png"  width="30px" height="30px" alt="">
+            </div>
+            <P class="star m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div>
+
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+            <img src="https://www.whiskaffair.com/wp-content/uploads/2019/05/Paneer-Butter-Masala-2-3.jpg"  height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sharavana Bavan</h5>
+              <img src="https://clipground.com/images/veg-logo-png-5.png"  width="30px" height="30px" alt="">
+            </div>
+            <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div>
+            
+        
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+            <img src="https://wallpapercave.com/wp/wp4914626.jpg" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bhramin's</h5>
+              <img src="https://clipground.com/images/veg-logo-png-5.png"  width="30px" height="30px" alt="">
+            </div>
+            <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div>
+        
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+        <div>
+            <img src="https://4.bp.blogspot.com/-AUGMdW5ld4Y/To01Ahcyc3I/AAAAAAAAGDY/iFioMy-1ifM/s1600/IMG_7784.JPG" height="250px" class="card-img-top" alt="...">
+            <span class="badge text-bg-warning position-absolute top-0 start-0 m-2">Buy1 Get1</span>
+        </div>
+            <div class="card-body">
+              <h5 class="card-title">Chicking</h5>
+              <img src="https://vectorified.com/images/non-veg-icon-34.png" width="40px" height="30px" alt="">
+            </div>
+            <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div>
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+        <div>
+            <img src="https://images.ctfassets.net/wtodlh47qxpt/2MisPscDV1k33qLnGwQ2il/14bdab6e4b9e25e1b91a8578df5097f2/CAT86" height="250px" class="card-img-top" alt="...">
+            <span class="badge text-bg-warning position-absolute top-0 start-0 m-2">Deal@299</span>
+        </div>
+            <div class="card-body">
+              <h5 class="card-title">KFC</h5>
+              <img src="https://vectorified.com/images/non-veg-icon-34.png" width="40px" height="30px" alt="">
+            </div>
+            <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div> 
+    </div>      
+
+    <div class="d-flex justify-content-around m-3">
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+            <img src="https://3.bp.blogspot.com/-VJWu4u3hifI/V49RFi61pQI/AAAAAAAAAMc/CXmSmerRLOgqaiEdMP914i37Bk-v1EDRwCLcB/s1600/Krish_022-Chicken-Biryani-web.jpg" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Paragon</h5>
+              <img src="https://vectorified.com/images/non-veg-icon-34.png" width="40px" height="30px" alt="">
+              </div>
+              <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div>
+
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+        <div>
+            <img src="https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers-upgrade/l-intro-1662064407.jpg"  height="250px" class="card-img-top" alt="...">
+            <span class="badge text-bg-warning position-absolute top-0 start-0 m-2">60% Off</span>
+        </div>
+            <div class="card-body">
+              <h5 class="card-title">Burger Lounge</h5>
+              <img src="https://vectorified.com/images/non-veg-icon-34.png"  width="40px" height="30px" alt="">
+            </div>
+            <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div>
+        
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+            <img src="https://bellyfull.net/wp-content/uploads/2022/07/Mexican-Pizza-blog-2-1152x1536.jpg" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Domino's</h5>
+              <img src="https://vectorified.com/images/non-veg-icon-34.png"  width="40px" height="30px" alt="">
+            </div>
+            <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div>
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+            <img src="https://nsnbc.me/wp-content/uploads/2019/07/fruit-juice.jpg" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Juicy Juice</h5>
+              <img src="https://clipground.com/images/veg-logo-png-5.png" width="30px" height="30px" alt="">
+            </div>
+            <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        </div>
+        <div class="card bg-light text-dark bg-opacity-50" style="width: 18rem;">
+            <img src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/12/shutterstock_1401685397.jpg" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Anna's Cafe</h5>
+              <img src="https://clipground.com/images/veg-logo-png-5.png" width="30px" height="30px" alt="">
+            </div>
+            <P class="star  m-2 "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i></P>
+        
+        </div> 
+    </div>
+    <center>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center p-3">
+          <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </center>
+
+<div class="row m-5">
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <h4 id="list-item-1">Starters</h4>
+        <div class="d-flex justify-content-between m-5">
+            <div class="m-3">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.mBklqjqOHOQR5vSM3Bs6GQHaLG&pid=Api&P=0&h=180" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Paneer tikka</p>
+            </div>
+            <div class="m-3">
+                <img src="https://glebekitchen.com/wp-content/uploads/2016/12/chickentikkakebab-1024x928.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Chicken tikka</p>
+            </div>
+            <div class="m-3">
+                <img src="https://simshomekitchen.com/wp-content/uploads/2022/04/tandoori-skewers.png" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Chicken kabob</p>
+            </div>
+            <div class="m-3">
+              <img src="https://www.cookingclassy.com/wp-content/uploads/2014/10/vegetable-soup-7.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+              <p>Soup</p>
+          </div>
+          <div class="m-3">
+            <img src="https://dinnerthendessert.com/wp-content/uploads/2019/09/Chicken-Nuggets.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+            <p>Chicken Nuggets</p>
+        </div>
+        <div class="m-3">
+          <img src="https://whatayummy.com/wp-content/uploads/2022/09/Featuring-image-1-1.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+          <p>Fries</p>
+      </div>
+
+    </div>
+
+        <h4 id="list-item-2">Main course</h4>
+        <div class="d-flex justify-content-between m-5">
+            <div class="m-3">
+                <img src="https://cdn.pixabay.com/photo/2022/11/18/05/40/biriyani-7599454_1280.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Biriyani</p>
+            </div>
+            <div class="m-3">
+                <img src="https://www.discovermyindia.in/wp-content/uploads/2020/03/kerala_meals-892x934.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Kerala meals</p>
+            </div>
+            <div class="m-3">
+                <img src="https://cochindelights.ca/wp-content/uploads/2023/06/beef-roast-2-kerala-parotta.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Porotta & Beef</p>
+            </div>
+            <div class="m-3">
+                <img src="https://i.pinimg.com/originals/08/b0/8a/08b08adbc0d5ccfa7f595c7b3718ebf9.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>chatti choru</p>
+            </div>
+            <div class="m-3">
+                <img src="https://i.pinimg.com/originals/bd/04/9f/bd049f5179f6a62480fbe02bb8825e2a.png" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Kappa & fish curry</p>
+            </div>
+            <div class="m-3">
+                <img src="https://vismaifood.com/storage/app/uploads/public/609/3dc/1d7/6093dc1d77053892307086.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Masala Dosa</p>
+            </div>
+
+            
+        </div>
+        <h4 id="list-item-3">Beverages</h4>
+        <div class="d-flex justify-content-between m-5">
+            <div class="m-3">
+                <img src="https://images.pexels.com/photos/33595/cappuccino-cup-drink-coffee-drink.jpg?cs=srgb&dl=caffeine-coffee-cup-33595.jpg&fm=jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Coffe</p>
+            </div>
+            <div class="m-3">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.HAqAS1Gdfqb0_wllUz6s2gHaE8&pid=Api&P=0&h=180" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Chai</p>
+            </div>
+            <div class="m-3">
+                <img src="https://topnaturalremedies.net/wp-content/uploads/2014/09/Fresh-juiceHealthy-drink.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Fresh juice</p>
+            </div>
+            <div class="m-3">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.PCpNaEFMvIJnqCTUM5qc0AHaLH&pid=Api&P=0&h=180" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Fresh lime</p>
+            </div>
+            <div class="m-3">
+                <img src="https://www.veganricha.com/wp-content/uploads/2022/06/Baklava-Lassi-4533.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Lassi</p>
+            </div>
+            <div class="m-3">
+                <img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/07/Grapefruit-Pineapple-Mocktail.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+                <p>Mocketails</p>
+            </div>
+        </div>
+        
+        <h4 id="list-item-4">Desserts</h4>
+        <div class="d-flex justify-content-between m-5">
+          <div class="m-3">
+              <img src="https://d2t88cihvgacbj.cloudfront.net/manage/wp-content/uploads/2016/06/cool-creamy-raspberry-pretzel-dessert-1.jpg?x61687" width="250px" height="250px" class="rounded-circle" alt="...">
+              <p>Cakes</p>
+          </div>
+          <div class="m-3">
+              <img src="https://www.thespruceeats.com/thmb/x-BOhpAiemy1XPHLaug-MUIvTgI=/5040x3500/filters:fill(auto,1)/fruit-salad-98841227-5848619a5f9b5851e5f87d5c.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+              <p>Fruit salad</p>
+          </div>
+          <div class="m-3">
+              <img src="https://barefeetinthekitchen.com/wp-content/uploads/2018/05/Easiest-Ice-Cream-1-1-of-1-2048x1463.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+              <p>Ice Cream</p>
+          </div>
+          <div class="m-3">
+            <img src="https://www.southernkissed.com/wp-content/uploads/2020/04/ChocolateMousse_vertical2.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+            <p>Mousse</p>
+        </div>
+        <div class="m-3">
+          <img src="https://drivemehungry.com/wp-content/uploads/2019/02/best-custard-bread-pudding-recipe.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+          <p>Pudding</p>
+      </div>
+      <div class="m-3">
+        <img src="https://i.redd.it/gvg2isjye4q01.jpg" width="250px" height="250px" class="rounded-circle" alt="...">
+        <p>Indian Sweets</p>
+    </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  <h1 class=" text-center p-3">Our Special Offers</h1>
+<div class="d-flex justify-content-center">
+    <div class="card m-4" style="width: 18rem;">
+        <img src="https://cdn.browsercam.com/app.playandwinapp.com-header.png" class="card-img-top" height="150px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Play & Win</h5>
+          <p class="card-text">Play the game and collect scratch cards.</p><br>
+          <a href="#" class="btn btn-primary">Go....</a>
+        </div>
+      </div>
+
+      <div class="card m-4" style="width: 18rem;">
+        <img src="http://www.chisconsult.com/imageGen.ashx?image=/media/1131/scratch-and-win.jpg&width=1200" class="card-img-top" height="150px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Scratch & Win</h5>
+          <p class="card-text">Scratch the cards and collect spicy money. It can be used to order your favorite dishes.</p>
+          <a href="#" class="btn btn-primary">Go....</a>
+        </div>
+      </div>
+    <div class="card m-4" style="width: 18rem;">
+        <img src="https://png.pngtree.com/png-clipart/20211116/original/pngtree-gift-box-lucky-draw-red-poster-png-image_6938222.png" class="card-img-top" height="150px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Luckey Drow</h5>
+          <p class="card-text">You get an amazing prices.like car,scooter, washimg machine,phone etc..</p>
+          <a href="#" class="btn btn-primary">Go....</a>
+        </div>
+    </div>  
+</div>
+
+<div class="container review-section">
+  <h2 class="text-center">Customer Reviews</h2>
+  
+  <!-- Review Form -->
+  <form id="reviewForm" class="mb-4">
+      <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="mb-3">
+          <label for="reviewText" class="form-label">Your Review</label>
+          <textarea class="form-control" id="reviewText" rows="3" placeholder="Write your review here..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Review</button>
+  </form>
+  
+  <!-- Display Reviews -->
+  <div id="reviewsList">
+      <!-- Reviews will be dynamically added here -->
+  </div>
+</div>
+
+  <footer class=" text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <img src="https://www.pngmart.com/files/16/Kitchen-Chef-Vector-PNG-Transparent-Image.png" width="70px" height="80px" alt="Company Logo" class="mb-3">
+                <p>Delicious food at your fingertips. Order now and enjoy the best food experience delivered to your door!</p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Home</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Menu</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">About Us</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Contact</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Services</h5>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Order Food</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Delivery</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Catering</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Customer Support</a></p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+                <p><i class="fas fa-home mr-3"></i> pala, kottayam, india</p>
+                <p><i class="fas fa-envelope mr-3"></i> spicycook@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i> + 123 456 7890</p>
+                <p><i class="fas fa-print mr-3"></i> + 123 456 7890</p>
+            </div>
+        </div>
+
+        <div class="row align-items-center mt-4">
+            <div class="col-md-7 col-lg-8">
+                <p>© 2019 SPICY COOK. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-5 col-lg-4 text-center text-md-right">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 1.2rem;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 1.2rem;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 1.2rem;">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 1.2rem;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 1.2rem;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+          
+</body>
+</html>

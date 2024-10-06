@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: "Archivo", sans-serif; */
+    font-family: "Oswald", sans-serif;
+}
+body{
+    color: rgb(199, 214, 228);
+
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(2, 23, 81);
+}
+ header ul{
+    display: flex;
+    justify-content: space-around;
+} 
+header ul li{
+    margin: 20px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration:none;
+    color:white
+    
+}
+header ul li a i{
+    margin-right: 4px;
+}
+header ul li a:hover{
+    color: rgb(177, 216, 226);
+    text-shadow: 4px 3px 4px white
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 48px;
+    
+}
+.location {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 48px;
+    
+}
+.search-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.search-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #a9543d;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color:rgb(177, 216, 226);
+}
+.star{
+    color: rgb(210, 210, 10);
+}
+.journey-section {
+    padding: 60px;
+}
+
+.journey-photos {
+    padding-left: 20px;
+}
+.journey-step h4 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.journey-step p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6c757d;
+}
+.journey-photos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: rgb(2, 23, 81);
+}
+
+footer .btn-floating {
+    margin: 0 10px;
+    display: inline-block;
+    color: white;
+}
+
+footer .fab:hover{
+color: black;
+}
+
+.review-section {
+    margin-top: 50px;
+}
+.review-card {
+    margin-bottom: 20px;
+}
