@@ -42,7 +42,7 @@ header ul li a:hover{
 .search-form {
     display: flex;
     align-items: center;
-    width: 100%;
+/*     width: 100%; */
     max-width: 600px;
     margin: 48px;
     
@@ -50,13 +50,13 @@ header ul li a:hover{
 .location {
     display: flex;
     align-items: center;
-    width: 100%;
+/*     width: 100%; */
     max-width: 600px;
     margin: 48px;
     
 }
 .search-input {
-    width: 100%;
+/*     width: 100%; */
     padding: 12px;
     font-size: 16px;
     border: none;
@@ -97,7 +97,7 @@ header ul li a:hover{
     color: #6c757d;
 }
 .journey-photos img {
-    width: 100%;
+/*     width: 100%; */
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
